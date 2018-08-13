@@ -1,0 +1,104 @@
+body,html {
+     height: 100%
+}
+ body {
+     background: url(http://9i.dvmama.com/free/2018/03/14/375_667_d77335f39f378d1aec5d30145c80363a.png);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-position: center;
+     overflow: hidden
+}
+ .invite-btn {
+     display: block;
+     margin: 0.35rem auto 0;
+     background: -webkit-linear-gradient(left,#FF5B5B,#FA1862);
+     background: -webkit-gradient(linear,left top,right top,from(#FF5B5B),to(#FA1862));
+     background: -o-linear-gradient(left,#FF5B5B,#FA1862);
+     background: linear-gradient(to right,#FF5B5B,#FA1862);
+     border-radius: 1rem;
+     -webkit-box-shadow: 0 .03rem .08rem rgba(255,68,105,.4);
+     box-shadow: 0 .03rem .08rem rgba(255,68,105,.4);
+     color: #fff!important;
+     font-size: 0.14rem;
+     line-height: 0.4rem;
+     text-align: center;
+     width: 73%
+}
+ .address-bg {
+     background: url(http://9i.dvmama.com/free/2018/03/14/363_244_328c8e7173dbf5ca866db7596362f203.png);
+     height: 2.4rem;
+     background-size: 100%;
+     background-repeat: no-repeat;
+     position: relative;
+     margin: 0.1rem;
+     margin-bottom: 0;
+     padding: 0.1rem;
+}
+ .address-bg .top {
+     margin: 0.2rem;
+     position: relative;
+     height: 0.7rem;
+     border-bottom: 0.01rem solid #d9d9d9;
+     margin-top: 0;
+}
+ .address-bg .top p {
+     height: 0.16rem;
+     line-height: 0.16rem;
+}
+ .address-bg .top .nickname {
+     position: absolute;
+     width: 0.8rem;
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     top: 0.19rem;
+}
+ .address-bg .top .phone {
+     width: 1.2rem;
+     position: absolute;
+     ;
+     left: 1rem;
+     top: 0.19rem;
+}
+ .address-bg .top .addre {
+     width: 90%;
+     position: absolute;
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     top: 0.4rem;
+}
+ .address-bg .top .edit-icon {
+     position: absolute;
+     width: 0.16rem;
+     height: 0.16rem;
+     top: 50%;
+     margin-top: -0.08rem;
+     right: 0;
+}
+ .address-bg .middle {
+     font-size: 0.16rem;
+     color: #555;
+     font-weight: bold;
+     margin: 0.15rem;
+}
+ .address-bg .bottom {
+     height: 0.72rem;
+     margin: 0.2rem;
+     margin-top: 0;
+     position: relative;
+}
+ .address-bg .bottom img {
+     width: 0.72rem;
+     height: 0.72rem;
+}
+ .address-bg .bottom .title {
+     position: absolute;
+     left: 0.82rem;
+     top: 0.1rem;
+     line-height: 1.2;
+     display: -webkit-box;
+     -webkit-box-orient: vertical;
+     -webkit-line-clamp: 2;
+     overflow: hidden;
+}

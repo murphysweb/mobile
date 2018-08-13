@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  @@include('meta.include')
+  <link rel="stylesheet" href="[[static]]/page/musicDetail_intro/css/musicDetail_intro.css[[v]]">
+</head>
+<body>
+  <div class="app">
+    <com-top-title :title="music" :growth-box="true"></com-top-title>
+    <!--标题-->
+    <index @music="musicFn" @growth="growthFn"></index>
+    <!--返回顶部-->
+    <com-to-top-icon></com-to-top-icon>
+  </div>
+
+  @@include('vendor.include')
+  @@include('js.include')
+  <script src="[[static]]/page/musicDetail_intro/js/musicDetail_intro.js[[v]]"></script>
+</body>
+</html>

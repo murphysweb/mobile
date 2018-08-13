@@ -1,0 +1,166 @@
+.success_banner {
+     background: -webkit-linear-gradient(left top, #F0D09E, #BB953F);
+     background: -webkit-gradient(linear, left top, right bottom, from(#F0D09E), to(#BB953F));
+     background: -webkit-linear-gradient(top left, #F0D09E, #BB953F);
+     background: linear-gradient(to bottom right, #F0D09E, #BB953F);
+     text-align: center;
+     padding: 0.3rem 0;
+     font-size: 0.18rem;
+     color: #FFFFFF;
+}
+ .success_banner img {
+     width: 0.9rem;
+}
+ .success_banner p:nth-of-type(1) {
+     font-size: 0.18rem;
+     line-height: 0.28rem;
+     margin-top: 0.2rem;
+}
+ body {
+     background: #FFFFFF !important;
+     padding-bottom: 0;
+}
+ .invite-btn {
+     display: block;
+     background: -webkit-linear-gradient(left, #FF5B5B, #FA1862);
+     background: -webkit-gradient(linear, left top, right top, from(#FF5B5B), to(#FA1862));
+     background: -o-linear-gradient(left, #FF5B5B, #FA1862);
+     background: linear-gradient(to right, #FF5B5B, #FA1862);
+     -webkit-box-shadow: 0 0.03rem 0.08rem rgba(255, 68, 105, 0.4);
+     box-shadow: 0 0.03rem 0.08rem rgba(255, 68, 105, 0.4);
+     color: #fff !important;
+     font-size: 0.15rem;
+     line-height: 0.5rem;
+     text-align: center;
+     position: fixed;
+     width: 100%;
+     max-width: 640px;
+     bottom: 0;
+}
+
+.invite-btn-disabled {
+     background: -webkit-linear-gradient(left, #c0c0c0, #999999);
+     background: -webkit-gradient(linear, left top, right top, from(#c0c0c0), to(#999999));
+     background: -o-linear-gradient(left, #c0c0c0, #999999);
+     background: linear-gradient(to right, #c0c0c0, #999999);
+}
+
+ .book_info {
+     height: 3.2rem;
+     padding: 0.1rem 0.1rem 0 0.1rem;
+     background: url(http://9i.dvmama.com/free/2018/03/13/375_667_1fd63e0fbf697b8c30ecf26a88026c35.png);
+     background-position-y: -0.6rem;
+}
+ .book_info .info {
+     height: 1.98rem;
+     background: #fff;
+     padding-top: 0.08rem;
+}
+ .book_info .info .border {
+     border: 2px solid #f97718;
+     height: 1.86rem;
+     margin: 0 0.08rem 0.08rem 0.08rem;
+}
+ .book_info .timeout {
+     height: .4rem;
+     line-height: .4rem;
+     background: #fff;
+     margin-top: .15rem;
+     border-radius: 0.05rem;
+     text-align: center;
+     color: #f97718;
+}
+ .book_info .timeout .time {
+     display: inline-block;
+     background: #666;
+     color: #fff;
+     height: 0.16rem;
+     line-height: 0.16rem;
+     border-radius: 0.05rem;
+     padding: 0.05rem;
+}
+ .book_info .timeout .dot {
+     color: #666;
+     padding: 0 0.04rem;
+}
+ .book_info .bg {
+     background-color: #fff;
+     width: 3.55rem;
+     height: 2.14rem;
+     position: relative;
+     margin: 0 auto;
+}
+ .book_info .bg img {
+    position: absolute;
+    margin: 0 auto;
+    width: 3.15rem;
+    height: 1.74rem;
+    left: .1rem;
+    top: .1rem;
+    border: 1px solid #e87a42;
+    padding: .05rem;
+}
+ .book_info .book_img {
+     position: fixed;
+     top: 0;
+}
+ .book_info .left_num {
+     color: #150b01;
+     text-align: center;
+     margin-top: 0.12rem;
+}
+.send_desc {
+     margin-bottom: 1rem;
+}
+ .send_desc .title span{
+     color: #f97718;
+     text-align: center;
+     font-size: 0.18rem;
+     margin: 0.2rem 0;
+     font-weight: bold;
+     display: block;
+    /*设置为块级元素会独占一行形成上下居中的效果*/
+     position: relative;
+    /*定位横线（当横线的父元素）*/
+}
+ .send_desc .title span:before{
+     content: '';
+    /*CSS伪类用法*/
+     position: absolute;
+    /*定位背景横线的位置*/
+     top: 50%;
+     background: url(http://9i.dvmama.com/free/2018/03/13/15_6_243a94a84c23c0d7d9bf582dbbd64b49.png);
+    /*宽和高做出来的背景横线*/
+     width: 0.15rem;
+     height: 0.06rem;
+     margin-top: -0.03rem;
+     background-repeat: no-repeat;
+}
+ .send_desc .title span:after{
+     content: '';
+    /*CSS伪类用法*/
+     position: absolute;
+    /*定位背景横线的位置*/
+     top: 50%;
+     background: url(http://9i.dvmama.com/free/2018/03/13/15_6_3f70a2103c5d8abc6c5d2eda82f11e1e.png);
+    /*宽和高做出来的背景横线*/
+     width: 0.15rem;
+     height: 0.06rem;
+     margin-top: -0.03rem;
+     background-repeat: no-repeat;
+}
+ .send_desc .title span:before{
+     left: 30%;
+}
+ .send_desc .title span:after {
+     right: 30%;
+}
+ .send_desc .content {
+     padding: 0 0.2rem;
+     font-size: 0.14rem;
+     line-height: 1.3;
+     color: #323232;
+}
+ .send_desc .content .item {
+     margin-bottom: 0.1rem;
+}

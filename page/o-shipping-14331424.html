@@ -1,0 +1,151 @@
+<html data-dpr="2" data-width="375" data-percent="100" style="font-size: 100px;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="https://fe.vyohui.cn/wap/14382/stylesheet/base.css" rel="stylesheet">
+  <link href="https://fe.vyohui.cn/wap/14382/stylesheet/model.css" rel="stylesheet">
+  <link href="https://fe.vyohui.cn/wap/14382/stylesheet/order.css" rel="stylesheet">
+  <title>物流详情</title>
+  <script type="text/javascript">
+    //统计
+    var tj_id = 24;
+    var tj_path = 'order_delivery';
+
+    var appData = {
+      showHead: 1,     // 是否展示头部
+      showFoot: 0,     // 是否展示底部
+      backOnHead: 1,   // 头部返回按钮
+      homeOnHead: 0,   // 头部首页按钮
+      shareOnHead: 0
+    };
+
+    // 发货提醒接口地址
+    var txUrl = "/index.php?c=user&a=delivery_remind_response";
+
+    var deliveryAjaxUrl = 'http://pservice.vyohui.cn/Shipping/orderTrace'; //物流请求地址
+    var deliveryAjaxData = {
+      "timestamp": 1510025803,
+      "format": "json",
+      "sign": "34b08e1151a0e95e21c2ee9da2089f9f",
+      "order_id": 14331424
+    };
+  </script>
+</head>
+<body style="font-size: 14px;" id="getOrederAjax">
+<div class="top0" style="position: fixed;">
+  <div class="top_container">
+
+    <div class="top_left">
+      <a class="top_back" href="javascript:history.back();">
+        <span class="home_arrow"></span>
+      </a>
+    </div>
+    <div class="title_container">
+      物流详情
+    </div>
+    <div class="top_right">
+      <a href="/" class="top_home" data-dav-tj="order_delivery|home|home|1|home@order_delivery">
+        <span class="home_icon"></span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="order_delivery_container">
+  <div class="order_index dav-shadow">
+    <div class="order_id">
+      <span class="dav-color6">订单编号：</span>
+      <span>2017110111522132</span>
+      <span class="pull-right dav-red">已完成</span>
+    </div>
+    <div class="order_id">
+      <span class="dav-color6">发货单号：</span>
+      <span>2017110111522132_000</span>
+    </div>
+    <div class="order_date">
+      <span class="dav-color6">订单日期：</span>
+      <span>2017-11-01 11:00:37</span>
+      <!--物流投诉状态信息-->
+      <span class='pull-right dav-red' id="styleLink">物流投诉</span>
+    </div>
+  </div>
+
+
+  <div class="order_list_child mt12 single_goods with_delivery" data-for-order-id="9543928">
+
+    <a class="order_child_inner dav-shadow" href="/o-14331424.html?did=9543928">
+      <div class="order_good_list">
+        <div class="order_good_img_container">
+          <img
+            src="http://img1.bravetime.net/supplier/2017/03/18/640_640_98eb5a6cddc28504aa0f3b8c66f78fa1.png@!1e_1c_0o_0l_160h_160w.webp">
+        </div>
+        <div class="order_good_info_container dav-small">
+          <div class="order_good_name">测试</div>
+          <div class="order_good_price">￥0.05 X 1</div>
+        </div>
+      </div>
+
+      <!--物流投诉状态信息-->
+      <div class="orderMessage">
+        <p class="title">物流问题处理进展</p>
+        <div class="orderMessageBox">
+          <!--动态获取数据-->
+        </div>
+      </div>
+
+      <div class="order_good_state">
+        <span class="dav-small dav-color-6">由供应商发货</span>
+        <span class="dav-small dav-red pull-right">已完成</span>
+      </div>
+    </a>
+
+    <div class="order_goods_group_wl_container dav-color-6 dav-small">
+      <div class="order_goods_group_wl_con dav-shadow">
+        <div class="order_goods_group_wl_id">
+          <span>承运人：顺丰速递</span>
+          <!--<span class="pull-right">快递单号：-->
+            <!--<a class="dav-btn btn-white" style="padding:0px 10px;text-decoration:none;"-->
+          <!--href="https://www.baidu.com/s?wd=%E9%A1%BA%E4%B8%B0%E9%80%9F%E9%80%92+22222">22222</a>-->
+          <!--</span>-->
+          <span class="pull-right">
+            <span style="width: auto">快递单号：</span>
+            <span class="btn-white"
+                  style="padding:0px 10px;text-decoration:none;width: auto;color: #FF4A7D"
+                  onclick="toBaidu('22222')">
+              22222
+            </span>
+          </span>
+        </div>
+        <div class="order_goods_inf_none hide">
+          <a href="https://www.baidu.com/s?wd=%E9%A1%BA%E4%B8%B0%E9%80%9F%E9%80%92+22222">
+            <span class="search_orderDelivery_btn">查看物流</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+    <div class="order_goods_group_button dav-green"
+         data-dav-tj="order_delivery|display|display|1|display@order_delivery">
+      <span>收起物流信息</span>
+    </div>
+  </div>
+
+</div>
+
+<script src="https://cdn.vyohui.cn/jquery/1.9.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+  !window.jQuery && document.write('<script type="text/javascript" src="https://fe.vyohui.cn/wap/14382/cdn/jquery/1.9.1/jquery-1.9.1.min.js"><\/script>');
+</script>
+<script src="https://cdn.bootcss.com/crypto-js/3.1.9/core.min.js"></script>
+<script src="https://cdn.bootcss.com/crypto-js/3.1.9/md5.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+<script type="text/javascript" src="https://fe.vyohui.cn/wap/14382/javascript/model.js"></script>
+<script type="text/javascript" src="https://fe.vyohui.cn/wap/14382/javascript/base.js"></script>
+<script type="text/javascript" src="https://fe.vyohui.cn/wap/14382/javascript/shipping.js"></script>
+<script type="text/javascript" src="https://fe.vyohui.cn/wap/14382/javascript/order.js"></script>
+<script src="https://src.vyohui.cn/src/switch_20161122.js"></script>
+
+</body>
+</html>

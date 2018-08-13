@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no" />
+  <title>免费领书</title>
+  <link href="http://5e.dvmama.com/wap/15686/stylesheet/base.css" rel="stylesheet">
+  <link href="http://5e.dvmama.com/wap/15686/stylesheet/model.css" rel="stylesheet">
+  <link href="../stylesheet/get_book_success.css" rel="stylesheet">
+  <script src="https://3n.dvmama.com/growingIO/growingIO.davdian.v3.js" integrity="sha256-KwQr7ZZi14Rg7LSBLT2qbNXEtafKRaF/ERePdE4ciUE=" crossorigin=anonymous></script>
+  <script type="text/javascript">
+
+    var appData = {
+      showHead: 1, // 是否展示头部
+      showFoot: 0, // 是否展示底部
+      // 皇伟需要把 backOnHead 改成 0
+      backOnHead: 0, // 头部返回按钮
+      homeOnHead: 0, // 头部首页按钮
+      shareOnHead: 0
+    };
+  </script>
+</head>
+<body>
+  <div class="js-to-hide-cart" growing-ignore='true'>
+    <div class="top0">
+      <div class="top_container">
+        <!-- 这里注释了 不展示返回按钮 -->
+        <!-- <div class="top_left">
+          <a class="top_back" href="javascript:history.back();" data-dav-tj="cart_confirm|back|back|1|back@cart_confirm">
+            <span class="home_arrow"></span>
+          </a>
+        </div> -->
+        <div class="title_container">
+          免费领书 </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 领取成功通知页面-start -->
+  <div class="top">
+    <div class="bg" growing-ignore='true'>
+        <img src="//9i.dvmama.com/free/2017/10/27/success1.png" alt="" class="success">
+        <p>您已成功赠书</p>
+        <p>可立即免费领书</p>
+        <img src="http://9i.dvmama.com/free/2018/03/13/165_162_98036f81ab3e3fc44b590d703d8f1933.png" alt="" class="book_img">
+    </div>
+    <a class="invite-btn share_to_web" href="javascript:;">立即领书</a>
+    <!-- <a class="invite-btn btn-disabled" href="javascript:;">立即领书</a> -->
+
+  </div>
+  <!-- 领取成功通知页面-end -->
+
+  <!-- 领书活动规则-start -->
+  <div class="send_desc" growing-ignore='true'>
+    <div class="title"><span>规则</span></div>
+    <div class="content">
+      <div class="item">1.赠送1名未注册的好友，获得领取书资格即可立即领书；</div>
+      <div class="item">2.好友领取成功后，我们会短信通知您领取；</div>
+      <div class="item">3.领取成功后，可进入亲子交流学习群。</div>
+    </div>
+  </div>
+  <!-- 领书活动规则-end -->
+
+  <script src="http://3n.dvmama.com/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    !window.jQuery && document.write(
+      '<script type="text/javascript" src="http://5e.dvmama.com/wap/15686/cdn/jquery/1.9.1/jquery-1.9.1.min.js"><\/script>'
+    );
+  </script>
+  <script type="text/javascript" src="http://5e.dvmama.com/wap/17865/javascript/units.js"></script>
+  <script type="text/javascript" src="http://5e.dvmama.com/wap/15686/javascript/model.js"></script>
+  <script type="text/javascript" src="http://5e.dvmama.com/wap/15686/javascript/base.js"></script>
+  <!-- 皇伟需要在basejs  下边加上这段js -->
+  <script>
+    window.onload = function(){
+      $('.btn-disabled').click(function(){
+        bravetime.newConfirm('这里可以自定义提示信息', {
+          hideCancel: true,
+          okText: '我知道了',
+          okLink: function(){
+            alert('设置回调函数')
+          }
+        })
+      })
+    }
+    if(Units.isApp() && Units.getAppVersion() > 512){
+      document.getElementsByTagName("body")[0].className = '';
+    }
+  </script>
+</body>
+
+</html>

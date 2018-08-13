@@ -1,0 +1,34 @@
+//.df_new_title_2 {
+//  height: 44px;
+//  overflow: hidden;
+//  -webkit-box-orient: vertical;
+//  -webkit-line-clamp: 1;
+//  display: -webkit-box;
+//  background-color: white;
+//}
+.df_new_title_2 {
+  border-bottom: none !important;
+}
+
+.new_span {
+  display: -webkit-box;
+  height: 44px;
+  overflow: hidden;
+  width: calc(100% - 80px);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+}
+
+.dav_icon_arrow_new {
+  width: 0.04rem;
+  height: 0.08rem;
+  background-image: url(//9i.dvmama.com/free/2018/07/31/courseTitlePage.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: 0;
+  position: relative;
+  top: -0.01rem;
+  left: 0.09rem;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no" />
+  <title>免费送书-亲子共读</title>
+  <link href="http://5e.dvmama.com/wap/15686/stylesheet/base.css" rel="stylesheet">
+  <link href="http://5e.dvmama.com/wap/15686/stylesheet/model.css" rel="stylesheet">
+  <link href="../stylesheet/send_book.css" rel="stylesheet">
+  <script src="https://3n.dvmama.com/growingIO/growingIO.davdian.v3.js" integrity="sha256-KwQr7ZZi14Rg7LSBLT2qbNXEtafKRaF/ERePdE4ciUE=" crossorigin=anonymous></script>
+  <script type="text/javascript">
+
+    var appData = {
+      showHead: 1, // 是否展示头部
+      showFoot: 0, // 是否展示底部
+      // 皇伟需要把 backOnHead 改成 0
+      backOnHead: 0, // 头部返回按钮
+      homeOnHead: 0, // 头部首页按钮
+      shareOnHead: 0
+    };
+  </script>
+  <style>
+    .left_num {
+      font-size: .13rem;
+      height: .13rem;
+      line-height: .13rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="js-to-hide-cart" growing-ignore='true'>
+    <div class="top0">
+      <div class="top_container">
+        <!-- 这里注释了 不展示返回按钮 -->
+        <!-- <div class="top_left">
+          <a class="top_back" href="javascript:history.back();" data-dav-tj="cart_confirm|back|back|1|back@cart_confirm">
+            <span class="home_arrow"></span>
+          </a>
+        </div> -->
+        <div class="title_container">
+          免费送书-亲子共读 </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 送书活动信息-start -->
+  <div class="book_info" growing-ignore='true'>
+    <div class="bg">
+      <img src="http://9i.dvmama.com/free/2018/03/21/2010_1164_a803ebe1ebc5c7ee143cc7136bd6066f.jpeg" alt="book_img" class="book_img">
+    </div>
+
+
+    <!-- 倒计时-start -->
+    <div class="timeout">
+      <p>今天倒计时：<span id="show_day"><span class="time" id="day">00</span ><span class="dot">天</span></span><span class="time" id="hour">00</span ><span class="dot">时</span><span class="time" id="minute">00</span><span class="dot">分</span><span class="time" id="second">00</span><span class="dot">秒</span></p>
+    </div>
+    <!-- 倒计时-end -->
+
+    <!-- 剩余数量-start -->
+    <div class="left_num">今天仅剩：1000本</div>
+    <div class="left_num" style="margin-top:.05rem;">当前已送：2本</div>
+    <!-- 剩余数量-end -->
+  </div>
+  <!-- 送书活动信息-end -->
+
+  <!-- 送书活动目的-start -->
+  <div class="send_desc" growing-ignore='true'>
+    <div class="title"><span>活动目的</span></div>
+    <div class="content">
+      <div class="item">1.活动目的旨在帮助妈妈顾问挖掘潜在的会员用户</div>
+      <div class="item">2.指定顾问有送书权利，数量限50本，活动为期7天</div>
+      <div class="item">3.只有非大V店注册用户可以领取</div>
+      <div class="item">4.成功领书后会加入妈妈顾问的群，群主可进行亲子阅读相关活动方便后期转化其为会员</div>
+    </div>
+  </div>
+  <!-- 送书活动目的-end -->
+
+  <!-- 免费送书入口按钮 -->
+  <a class="invite-btn" href="javascript:;" id="send_book_btn">免费送书</a>
+  <!-- <a class="invite-btn invite-btn-disabled" href="javascript:;">今日活动已结束</a> -->
+
+  <script>
+  // 倒计时相关JS
+  function timer() {
+    var y = (new Date()).getFullYear();
+    var m = (new Date()).getMonth() + 1;
+    var d = (new Date()).getDate();
+    // console.log(y + '--' + m + '--' + d)
+    // console.log(y + '-' + m + '-' + d + ' 23:59:59')
+    var ts = (new Date(y + '-' + m + '-' + d + ' 23:59:59')) - (new Date());//计算剩余的毫秒数
+    if (ts <= 0) {
+        clearInterval(time_out);
+        document.getElementById('send_book_btn').innerHTML = '今日活动已结束';
+        document.getElementById('send_book_btn').className += ' invite-btn-disabled';
+    } else {
+      var dd = parseInt(ts / 1000 / 60 / 60 / 24, 10);//计算剩余的天数
+      var hh = parseInt(ts / 1000 / 60 / 60 % 24, 10);//计算剩余的小时数
+      var mm = parseInt(ts / 1000 / 60 % 60, 10);//计算剩余的分钟数
+      var ss = parseInt(ts / 1000 % 60, 10);//计算剩余的秒数
+      dd = checkTime(dd);
+      hh = checkTime(hh);
+      mm = checkTime(mm);
+      ss = checkTime(ss);
+      if (dd > 0) {
+        document.getElementById("day").innerHTML = dd;
+      } else {
+        document.getElementById("show_day").style.display = 'none';
+      }
+      document.getElementById("hour").innerHTML = hh;
+      document.getElementById("minute").innerHTML = mm;
+      document.getElementById("second").innerHTML = ss;
+      var time_out = setInterval("timer()",1000);
+    }
+  }
+
+  function checkTime(i) {
+    if (i < 10) {
+    i = "0" + i;
+  }
+    return i;
+  }
+
+  timer();
+  </script>
+  <script src="http://3n.dvmama.com/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    !window.jQuery && document.write(
+      '<script type="text/javascript" src="http://5e.dvmama.com/wap/15686/cdn/jquery/1.9.1/jquery-1.9.1.min.js"><\/script>'
+    );
+  </script>
+  <script type="text/javascript" src="http://5e.dvmama.com/wap/15686/javascript/model.js"></script>
+  <script type="text/javascript" src="http://5e.dvmama.com/wap/15686/javascript/base.js"></script>
+  <!-- 皇伟需要在basejs  下边加上这段js -->
+  <script>
+    if(Units.isApp() && Units.getAppVersion() > 512){
+      document.getElementsByTagName("body")[0].className = '';
+    }
+  </script>
+</body>
+
+</html>

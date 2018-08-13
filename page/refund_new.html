@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="http://5e.dvmama.com/wap/17231/stylesheet/base.css" rel="stylesheet">
+    <link href="http://5e.dvmama.com/wap/17231/stylesheet/model.css" rel="stylesheet">
+    <link href="http://3n.dvmama.com/swiper/swiper-3.3.1.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://5e.dvmama.com/wap/17231/stylesheet/order.css">
+
+    <title>退货退款</title>
+    <script type="text/javascript">
+        /////////////////////给app提供接口数据////////////
+        var appData = {
+            showHead: 1,     // 是否展示头部
+            showFoot: 0,     // 是否展示底部
+            backOnHead: 1,   // 头部返回按钮
+            homeOnHead: 0,   // 头部首页按钮
+            shareOnHead: 0
+        };
+
+        //图片上传地址
+        var picUploadUrl = "/upload.php?owner_id=5105010";
+        //提交退货信息
+        var returnGoodsUrl = '/index.php?c=refund&a=create_response';
+        var delivery_id = "14983199";
+        var goods_id = "474003";
+        var number = 0;
+        var reasonTypeExt = 15;
+    </script>
+</head>
+<body class="orderDetail backcolor_F scroll_flag">
+<div class="top0">
+    <div class="top_container">
+
+        <div class="top_left">
+            <a class="top_back" href="javascript:history.back();">
+                <span class="home_arrow"></span>
+            </a>
+        </div>
+        <div class="title_container">
+            退货退款
+        </div>
+        <div class="top_right">
+            <a href="/" class="top_home">
+                <span class="home_icon"></span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="return_refund_container">
+    <div class="publish_comment_con">
+
+        <div class="order_detail_container mb_10">
+            <div class="order_goods_group dav-shadow" data-for-order-id="11">
+                <a class="order_goods_item_new" href="/474003.html">
+                    <div class="order_good_img_container_new">
+                        <img src="http://9i.dvmama.com/supplier/2017/06/13/1000_1000_cded2b7ad27e4d226879eaf8a92dd6c8.jpg@!1e_1c_0o_0l_160h_160w.webp">
+                    </div>
+                    <div class="order_good_info_container_new dav-small">
+                        <div class="order_good_name">【牧诺】奶酪奶贝内蒙古特产牧诺高钙型奶贝 袋装 150g_原味</div>
+                        <div class="order_good_price">￥39.00 X 1</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="backcolor_F p10 pdtop0">
+            <div class="return_box" id="selectRes">
+                <span>退货原因：</span>
+                <span class="contentText">请选择退货原</span>
+                <input id="_contentText" type="hidden">
+                <i class="back-arrow"></i>
+            </div>
+        </div>
+
+        <div class="return_tips mb_10 pdtop0">
+          漏发、错发、物流包裹破损等问题，请签收后48小时内申请售后，超过时效申请可能会被驳回。
+        </div>
+
+        <div class="backcolor_F p10 pdtop0">
+            <div class="return_box">
+                <span>退货金额：</span>
+                <span>￥<span class="js_re_money">12.29</span> (优惠后的金额)</span>
+            </div>
+        </div>
+
+        <div class="backcolor_F p10 pdtop0 positionrelative js_return_goodsNum">
+            <div class="return_box">
+                <span>数量：</span>
+            </div>
+            <div class="input_control" style="left:60px;">
+                <div class="minus change_num">-</div>
+                <input type="number" class="number_none" value="1" max="1" min="1">
+                <div class="plus change_num">+</div>
+            </div>
+        </div>
+
+        <div class="backcolor_F p10 pdtop0 positionrelative">
+            <div class="return_box">
+                <textarea placeholder="请描述您退货的原因：" class="return_remark"></textarea>
+                <span class="return_remark_num">200</span>
+            </div>
+        </div>
+
+        <div class="mb_10 clearfix add_comment_con">
+            <ul>
+                <li class="add">
+                    <img src="//9i.dvmama.com/free/comment_add_icon.png">
+                    <input type="file" class="add_pic_input" accept="image/gif,image/jpeg,image/png,image/jpg,image/bmp" multiple="multiple">
+                </li>
+            </ul>
+        </div>
+        <div class="return_tips mb_10">
+            1.无理由退货请保证商品完好不影响二次销售并原包装寄回（如影响二次销售，原路返回，到付包裹）；<br/>
+            2.申请退货时请务必上传照片，便于初步判定；上传照片时需提供商品包装照片、商品无使用痕迹照片（衣物类、鞋类需提供第三张照片，吊牌完好照片或两只鞋底照片）；<br/>
+            3.退货申请审核时效：36小时内完成审核，请您耐心等待；
+        </div>
+        <div class="return_btn returnGoodsInfoButton" data-for-id="98793">提交</div>
+    </div>
+</div>
+<div class="publish_pic_view hide">
+    <div class="publish_pic_preview">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="http://9i.dvmama.com/images/201503/goods_img/430_G_1427372720530.jpg">
+            </div>
+            <div class="swiper-slide"><img src="http://9i.dvmama.com/images/201507/goods_img/1274_G_1435806602097.jpg"
+                                           alt=""></div>
+            <div class="swiper-slide"><img src="http://9i.dvmama.com/images/201510/goods_img/3336_G_1444726917241.jpg"
+                                           alt=""></div>
+        </div>
+    </div>
+    <div class="publish_pic_preview_bottom">
+        <span class="back"><i class="back_arrow"></i>返回</span>
+        <span class="num">3/4</span>
+        <span class="delete_btn"></span>
+    </div>
+</div>
+<!--选择退款原因弹窗-->
+<div class="chooseResourt"></div>
+<div class="chooseWapper">
+  <!--关闭-->
+  <div class="chooseCloseWrapper" id="chooseCloseWrapper">
+    <span class="choose-close"></span>
+  </div>
+  <!--标题-->
+  <div class = "chooseTitle">退货原因</div>
+  <div class = "chooseCont">
+    <!--获取数据-->
+  </div>
+  <div class = "disabledModal">确定</div>
+</div>
+
+<script src="//apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">     !window.jQuery && document.write('<script type="text/javascript" src="http://5e.dvmama.com/wap/17231/cdn/jquery/1.9.1/jquery-1.9.1.min.js"><\/script>'); </script>
+<script src="https://cdn.bootcss.com/crypto-js/3.1.9/core.min.js"></script>
+<script src="https://cdn.bootcss.com/crypto-js/3.1.9/md5.min.js"></script>
+<script type="text/javascript" src="http://3n.dvmama.com/jquery.cookie/1.4.1/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="http://5e.dvmama.com/wap/17231/javascript/model.js"></script>
+<script type="text/javascript" src="http://5e.dvmama.com/wap/17231/javascript/base.js"></script>
+<script type="text/javascript" src="http://5e.dvmama.com/wap/17231/javascript/comment.js"></script>
+<script type="text/javascript" src="http://5e.dvmama.com/wap/17231/javascript/order.js"></script>
+<script type="text/javascript" src="http://5e.dvmama.com/wap/17231/javascript/units.js"></script>
+<script src="http://3n.dvmama.com/swiper/swiper-3.3.1.jquery.min.js"></script>
+
+</body>
+</html>

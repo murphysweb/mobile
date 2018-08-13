@@ -1,0 +1,94 @@
+html, body {
+     height: 100%;
+}
+body {
+     background-color: #fff;
+     padding-bottom: 0;
+     overflow: hidden;
+}
+.main-content {
+     background: url(http://9i.dvmama.com/free/2018/03/14/375_667_d77335f39f378d1aec5d30145c80363a.png);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-position: center;
+     padding-top: .1rem;
+     height: calc(100% - .1rem - 44px);
+     margin-top: 44px;
+}
+ .address-bg {
+     background: url(http://9i.dvmama.com/free/2018/03/14/363_563_255573db3805e56e025b38b463c13e1f.png);
+     height: 5.35rem;
+     background-size: 100%;
+     background-repeat: no-repeat;
+     position: relative;
+     margin: 0.1rem;
+     margin-bottom: 0;
+     padding: 0.1rem;
+}
+ .address-bg .top {
+     margin: 0.2rem;
+     position: relative;
+     height: 0.7rem;
+     margin-top: 0;
+}
+ .address-bg .top p {
+     height: 0.16rem;
+     line-height: 0.16rem;
+}
+ .address-bg .top .nickname {
+     position: absolute;
+     width: 0.8rem;
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     top: 0.19rem;
+}
+ .address-bg .top .phone {
+     width: 1.2rem;
+     position: absolute;
+     ;
+     left: 1rem;
+     top: 0.19rem;
+}
+ .address-bg .top .addre {
+     width: 90%;
+     position: absolute;
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     top: 0.4rem;
+}
+ .address-bg .top .edit-icon {
+     position: absolute;
+     width: 0.16rem;
+     height: 0.16rem;
+     top: 50%;
+     margin-top: -0.08rem;
+     right: 0;
+}
+ .success {
+     width: 1.1rem;
+     height: 1.1rem;
+     display: block;
+     margin: 0 auto;
+     margin-top: 0.2rem;
+}
+ .get_success {
+     font-size: 0.2rem;
+     color: #e87a42;
+     text-align: center;
+     border-bottom: 0.01rem solid #d9d9d9;
+     padding-bottom: 0.4rem;
+     margin: 0 0.2rem;
+     margin-top: 0.15rem;
+}
+ .qrcode {
+     width: 1.8rem;
+     height: 1.8rem;
+     display: block;
+     margin: 0 auto;
+}
+ .join-way {
+     text-align: center;
+     color: #888;
+}

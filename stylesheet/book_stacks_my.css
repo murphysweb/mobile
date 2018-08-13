@@ -1,0 +1,100 @@
+.in_app .top0 {
+    display: none;
+}
+
+.stacks_time_list .title {
+    background: white;
+    margin-bottom: 1px;
+}
+
+.stacks_time_list .title .btns {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+    line-height: 20px;
+}
+
+.stacks_time_list .title .btns .name {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: block;
+    font-size: 14px;
+    text-align: left;
+}
+
+.stacks_time_list .title .btns .more {
+    font-size: 12px;
+    color: #999;
+}
+
+.stacks_time_list .title .btns .more .arrow {
+    position: relative;
+    height: 14px;
+    top: -1px;
+}
+
+.base-color {
+    color: #FF4A7D;
+}
+
+.stacked_time {
+    /* width: 100%; */
+    background: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.stacked_time div:nth-of-type(1) {
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.stacked_time div:nth-of-type(2) {
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.stacked_time div:nth-of-type(3) {
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.stacked_time div a {
+    display: inline-block;
+    float: right;
+    text-decoration: underline;
+}
+
+.stacked_time div span {
+    color: #FF4A7D;
+}
+
+.go_home {
+    height: 35px;
+    display: block;
+    width: 100px;
+    max-width: 640px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #FF5B5B;
+    color: #FF5B5B;
+    border-radius: 4px;
+    margin: 10px auto;
+}
+
+.go_home a {
+    color: #FF5B5B;
+}

@@ -1,0 +1,76 @@
+.success_banner {
+  background: -webkit-linear-gradient(left top, #F0D09E, #BB953F);
+  background: -webkit-gradient(linear, left top, right bottom, from(#F0D09E), to(#BB953F));
+  background: -webkit-linear-gradient(top left, #F0D09E, #BB953F);
+  background: linear-gradient(to bottom right, #F0D09E, #BB953F);
+  text-align: center;
+  padding: 30px 0;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.success_banner img {
+  width: 90px;
+}
+
+.success_banner p:nth-of-type(1) {
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+.success_banner p:nth-of-type(2) {
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.vip_can {
+  padding: 15px 0 50px 0;
+  text-align: center;
+}
+
+.vip_can img {
+  width: 275px;
+}
+
+body {
+  background: #FFFFFF !important;
+}
+
+.invite-btn {
+  display: block;
+  margin: 15px auto 0;
+  background: -webkit-linear-gradient(left, #FF5B5B, #FA1862);
+  background: -webkit-gradient(linear, left top, right top, from(#FF5B5B), to(#FA1862));
+  background: -o-linear-gradient(left, #FF5B5B, #FA1862);
+  background: linear-gradient(to right, #FF5B5B, #FA1862);
+  border-radius: 100px;
+  -webkit-box-shadow: 0 0.03rem 0.08rem rgba(255, 68, 105, 0.4);
+  box-shadow: 0 0.03rem 0.08rem rgba(255, 68, 105, 0.4);
+  color: #fff !important;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  width: 73%;
+}
+.success_icon {
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.success_icon img {
+  width: 110px;
+  height: 110px;
+  display: inline-block;
+  margin: 55px 0 30px;
+}
+
+.success_icon p {
+  font-size: 18px;
+  height: 40px;
+  line-height: 28px;
+  color: #FF4A7D;
+}
+body.in_app .top0{
+  display: none;
+}

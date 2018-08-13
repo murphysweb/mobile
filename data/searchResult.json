@@ -1,0 +1,775 @@
+{
+  "code": 0,
+  "data_version": "cea123a64904e3d70c36fe95f9cae52b",
+  "shop_url": "http://chen.vyohui.cn",
+  "visitor_status": 3,
+  "sess_key": "3758cf2ab577426db71aba6551aafb7100000173",
+  "data": {
+    "feedList": [
+      {
+        "marginTop": "10",
+        "body": {
+          "tplId": "bd_goods_4",
+          "bgColor": "0xF1F1F1",
+          "dataList": [
+            {
+              "imageUrl": "http://9i.dvmama.com/images/201505/goods_img/692_G_1430823071032.jpg",
+              "title": "有些时候，我特别喜欢爸爸（信谊世界精选绘本）适合3-8岁",
+              "nowPrice": "26.7",
+              "actInfo": "a",
+              "incomeInfo": "2.0倍佣金",
+              "statusInfo": "",
+              "command": {
+                "content": "/692.html?rp=new_search_result&rl=list"
+              }
+            },
+            {
+              "imageUrl": "http://9i.dvmama.com/supplier/2016/10/29/640_640_086a68dd7e198861d56132d0dfada8d9.jpg",
+              "title": "如果我大声关门（精装，看绘本，懂礼仪，讲规则，好孩子就是一切从自己做起！3~6岁适读）",
+              "nowPrice": "24.8",
+              "actInfo": "哈哈哈哈哈哈哈哈哈哈哈哈哈哈",
+              "incomeInfo": "2.0倍佣金",
+              "statusInfo": "",
+              "command": {
+                "content": "/211060.html?rp=new_search_result&rl=list"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "marginTop": "10",
+        "body": {
+          "tplId": "bd_goods_4",
+          "bgColor": "0xF1F1F1",
+          "dataList": [
+            {
+              "imageUrl": "http://9i.dvmama.com/images/201505/goods_img/691_G_1430821769369.jpg",
+              "title": "有些时候，我特别喜欢妈妈（信谊世界精选绘本）适合3-8岁",
+              "nowPrice": "26.7",
+              "actInfo": "a",
+              "incomeInfo": "2.0倍佣金",
+              "statusInfo": "",
+              "command": {
+                "content": "/691.html?rp=new_search_result&rl=list"
+              }
+            },
+            {
+              "imageUrl": "http://9i.dvmama.com/images/201507/goods_img/1730_G_1437032806451.jpg",
+              "title": "向死而生：我修的死亡学分（是时候送本书给老公了！李开复著）",
+              "nowPrice": "29.7",
+              "actInfo": "",
+              "incomeInfo": "",
+              "statusInfo": "售罄",
+              "command": {
+                "content": "/1730.html?rp=new_search_result&rl=list"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "marginTop": "10",
+        "body": {
+          "tplId": "bd_goods_4",
+          "bgColor": "0xF1F1F1",
+          "dataList": [
+            {
+              "imageUrl": "http://9i.dvmama.com/goods/2016/05/18/640_640_1823b368726f94228e427065d9cf84ec.jpg",
+              "title": "我的问题我解决（6册，来自美国的儿童心理自助绘本，以书信的方式，解读孩子生活中遇到的困惑，6～9岁独立阅读）",
+              "nowPrice": "50.9",
+              "actInfo": "",
+              "incomeInfo": "2.0倍佣金",
+              "statusInfo": "",
+              "command": {
+                "content": "/46047.html?rp=new_search_result&rl=list"
+              }
+            },
+            {
+              "imageUrl": "http://9i.dvmama.com/supplier/2017/03/01/1000_1000_b8f4c8e06852bdab839c04b6f80fac79.jpg",
+              "title": "谁能抱抱我（精装，每个孩子都有被人排斥的经历，他（她）们应该如何面对？一本适用于儿童挫折教育的图画书。3~6岁适读）",
+              "nowPrice": "25.2",
+              "actInfo": "将挖掘机机机机机",
+              "incomeInfo": "",
+              "statusInfo": "",
+              "command": {
+                "content": "/122965.html?rp=new_search_result&rl=list"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "marginTop": "10",
+        "body": {
+          "tplId": "bd_goods_4",
+          "bgColor": "0xF1F1F1",
+          "dataList": [
+            {
+              "imageUrl": "http://9i.dvmama.com/images/201512/goods_img/7449_G_1448954190954.jpg",
+              "title": "今天我感觉（适合3-6岁，2015年博洛尼亚国际童书展最佳童书奖，2014年葡萄牙作家协会最佳童书提名。青豆书坊出品）",
+              "nowPrice": "33",
+              "actInfo": "将挖掘机",
+              "incomeInfo": "",
+              "statusInfo": "",
+              "command": {
+                "content": "/7449.html?rp=new_search_result&rl=list"
+              }
+            },
+            {
+              "imageUrl": "http://9i.dvmama.com/supplier/2017/02/14/1000_1000_12424454b92340e54b165d7b59bba72c.jpg",
+              "title": "我床上的老虎（精装，比利时国宝级插画大师G.V西纳顿精心绘制，彭懿倾情翻译，一本“奇妙的睡觉书”，帮助孩子克服与父母分床睡的恐惧，画面构思充满想象，发展幼儿的想象力及思维能力。0~3岁适读）",
+              "nowPrice": "23.3",
+              "actInfo": "",
+              "incomeInfo": "",
+              "statusInfo": "",
+              "command": {
+                "content": "/324516.html?rp=new_search_result&rl=list"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "marginTop": "10",
+        "body": {
+          "tplId": "bd_goods_4",
+          "bgColor": "0xF1F1F1",
+          "dataList": [
+            {
+              "imageUrl": "http://9i.dvmama.com/goods/2016/03/10/640_640_82f9538dab1362a6fd7f3c21682838c8.jpg",
+              "title": "这样的我OK吗？（精装，抚慰心灵的治愈绘本，有魔力的镜子书，帮孩子建立自信，接受自身的不完美，拥有豁达、自信的好品质！乐乐趣出品）",
+              "nowPrice": "27.8",
+              "actInfo": "",
+              "incomeInfo": "",
+              "statusInfo": "",
+              "command": {
+                "content": "/15773.html?rp=new_search_result&rl=list"
+              }
+            },
+            {
+              "imageUrl": "http://9i.dvmama.com/images/201508/goods_img/2019_G_1439273334372.jpg",
+              "title": "我最想要的记忆魔法书(风靡全球的“多米尼克记忆系统”全面公开，帮你精通11种记忆技巧，世界首席记忆大师、8次世界记忆冠军最新巅峰之作！）",
+              "nowPrice": "20",
+              "actInfo": "",
+              "incomeInfo": "",
+              "statusInfo": "",
+              "command": {
+                "content": "/2019.html?rp=new_search_result&rl=list"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "marginTop": "10",
+        "body": {
+          "tplId": "bd_goods_4",
+          "bgColor": "0xF1F1F1",
+          "dataList": [
+            {
+              "imageUrl": "http://9i.dvmama.com/goods/2016/05/27/640_640_b4a8c62dd6fc6a652a9a0931031c2a60.jpg",
+              "title": "麦克米伦世纪：我房间里的月亮 （凯迪克大奖作家尤里·舒利瓦茨作品，彭懿、杨玲玲翻译，带你走入孩子的完整世界，看孩子至纯至真的心灵天空。3~6岁适读）",
+              "nowPrice": "21",
+              "actInfo": "",
+              "incomeInfo": "",
+              "statusInfo": "",
+              "command": {
+                "content": "/46543.html?rp=new_search_result&rl=list"
+              }
+            },
+            {
+              "imageUrl": "http://9i.dvmama.com/goods/2016/05/24/640_640_15c62d2e3f0f9388d139342c56e7160d.jpg",
+              "title": "麦田精选图画书：我（国际获奖名家谷川俊太郎和长新太联袂之作，教会孩子别具一格地自我介绍，让大人“看见”孩子的“社交圈”）",
+              "nowPrice": "19.8",
+              "actInfo": "",
+              "incomeInfo": "",
+              "statusInfo": "",
+              "command": {
+                "content": "/34421.html?rp=new_search_result&rl=list"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "marginTop": "10",
+        "body": {
+          "tplId": "bd_goods_4",
+          "bgColor": "0xF1F1F1",
+          "dataList": [
+            {
+              "imageUrl": "http://9i.dvmama.com/goods/2016/04/29/640_640_e92048fc7b8936e853bc5b03e75c8d7b.jpg",
+              "title": "当你到达我（第2版，丽贝卡·斯戴德作品，2010年美国纽伯瑞儿童文学奖金奖，在悬疑的故事中启发对时间的思考，理解儿童成长的喜悦与困惑）",
+              "nowPrice": "19.7",
+              "actInfo": "",
+              "incomeInfo": "",
+              "statusInfo": "",
+              "command": {
+                "content": "/27801.html?rp=new_search_result&rl=list"
+              }
+            },
+            {
+              "imageUrl": "http://9i.dvmama.com/goods/2016/05/31/640_640_fe8f6cd3122755d2a1a8a8e8125418f0.jpg",
+              "title": "中国幽默儿童文学创作·任溶溶系列：我成了隐形人",
+              "nowPrice": "15",
+              "actInfo": "",
+              "incomeInfo": "",
+              "statusInfo": "",
+              "command": {
+                "content": "/42987.html?rp=new_search_result&rl=list"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "marginTop": "10",
+        "body": {
+          "tplId": "bd_goods_4",
+          "bgColor": "0xF1F1F1",
+          "dataList": [
+            {
+              "imageUrl": "http://9i.dvmama.com/supplier/2017/03/02/1000_1000_6488664d8c88d6eadd3eed09f9199a48.jpg",
+              "title": "妈妈从没告诉我（精装 ，“幽默女王”芭贝·柯尔为你大胆揭秘！风靡全世界的“叛逆风格”绘本作家，数十种语言，全球多个国家出版，总销量超过千万册。3岁以上适读）",
+              "nowPrice": "25",
+              "actInfo": "",
+              "incomeInfo": "",
+              "statusInfo": "",
+              "command": {
+                "content": "/173902.html?rp=new_search_result&rl=list"
+              }
+            },
+            {
+              "imageUrl": "http://9i.dvmama.com/supplier/2017/02/07/1000_1000_381de0db0b17c39bb8e370581cd6a28d.jpg",
+              "title": "我长大了（精装拉拉书，让小朋友透过自己动手操作了解动植物和人类是如何成长的，兼具游戏和认知，还有重复、好念的句子，让小朋友边玩边学习，是本寓教于乐的魔法书。1~8岁适读）",
+              "nowPrice": "39.3",
+              "actInfo": "",
+              "incomeInfo": "",
+              "statusInfo": "",
+              "command": {
+                "content": "/292459.html?rp=new_search_result&rl=list"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "marginTop": "10",
+        "body": {
+          "tplId": "bd_goods_4",
+          "bgColor": "0xF1F1F1",
+          "dataList": [
+            {
+              "imageUrl": "http://9i.dvmama.com/goods/2016/01/04/640_640_13c0506dbae4755fcedc56e1f64e118e.jpg",
+              "title": "了解我自己：我的情绪我控制（立体翻翻书，适合4~9岁，山东科学技术出版社，国家新闻出版广电总局向全国青少年推荐百种优秀图书之一，荣获法国2014年优秀青少年读物奖、中国2014年度桂冠童书奖。）",
+              "nowPrice": "54",
+              "actInfo": "",
+              "incomeInfo": "",
+              "statusInfo": "",
+              "command": {
+                "content": "/11236.html?rp=new_search_result&rl=list"
+              }
+            },
+            {
+              "imageUrl": "http://9i.dvmama.com/goods/2016/07/11/640_640_fdce590962e73b9080e04471fe44d34f.jpg",
+              "title": "我……有梦（精装，凯迪克银奖，《纽约时报》最佳儿童图画书、杰出童书奖，关于梦想、坚持与爱的传记绘本，温暖细腻而鼓舞人心。郝广才翻译，3~6岁适读）",
+              "nowPrice": "23.5",
+              "actInfo": "",
+              "incomeInfo": "",
+              "statusInfo": "",
+              "command": {
+                "content": "/81495.html?rp=new_search_result&rl=list"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "marginTop": "10",
+        "body": {
+          "tplId": "bd_goods_4",
+          "bgColor": "0xF1F1F1",
+          "dataList": [
+            {
+              "imageUrl": "http://9i.dvmama.com/images/201511/goods_img/5337_G_1448008432675.jpg",
+              "title": "只有两个男孩嘘我（适合3-6岁，生动的图画，讲究的文字，精巧的翻页，读这本妙趣横生的图画书，让孩子从此不再怯场！）",
+              "nowPrice": "28",
+              "actInfo": "",
+              "incomeInfo": "",
+              "statusInfo": "",
+              "command": {
+                "content": "/5337.html?rp=new_search_result&rl=list"
+              }
+            },
+            {
+              "imageUrl": "http://9i.dvmama.com/supplier/2017/02/23/1000_1000_1394dd7c88a5c455e1e6f7309c8a5f7e.jpg",
+              "title": "我掉进了吸尘器 （精装，给孩子的观察、想象、创作心理绘本。入围总督奖、《环球邮报》年度最佳童书，西比尔斯童书奖得主期待最高的作品，3岁读到103岁的逆境哲理故事。3岁以上适读）",
+              "nowPrice": "59",
+              "actInfo": "",
+              "incomeInfo": "",
+              "statusInfo": "",
+              "command": {
+                "content": "/342857.html?rp=new_search_result&rl=list"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "filterList": [
+      {
+        "parentName": "品牌",
+        "parentId": "brandNames",
+        "sonList": [
+          {
+            "name": "全部"
+          },
+          {
+            "name": "中信"
+          },
+          {
+            "name": "上海少儿"
+          },
+          {
+            "name": "伯斯马丁"
+          },
+          {
+            "name": "电子工业"
+          },
+          {
+            "name": "百词斩玩儿单词"
+          },
+          {
+            "name": "艾禾美"
+          },
+          {
+            "name": "中少总社"
+          },
+          {
+            "name": "海豚传媒"
+          },
+          {
+            "name": "童趣出版有限公司"
+          },
+          {
+            "name": "读库"
+          },
+          {
+            "name": "21世纪"
+          },
+          {
+            "name": "启发"
+          },
+          {
+            "name": "信谊"
+          },
+          {
+            "name": "广西魔法象"
+          },
+          {
+            "name": "北京科技"
+          },
+          {
+            "name": "尚左志远图书"
+          },
+          {
+            "name": "湖北朗阅"
+          },
+          {
+            "name": "爱心树"
+          },
+          {
+            "name": "禹田文化"
+          },
+          {
+            "name": "红点智慧"
+          },
+          {
+            "name": "蒲蒲兰"
+          },
+          {
+            "name": "麦克米伦"
+          },
+          {
+            "name": "一米阳光"
+          },
+          {
+            "name": "东方娃娃"
+          },
+          {
+            "name": "中国青年出版社"
+          },
+          {
+            "name": "乐乐趣"
+          },
+          {
+            "name": "农大社"
+          },
+          {
+            "name": "农大社少儿中心"
+          },
+          {
+            "name": "凤凰阿歇特"
+          },
+          {
+            "name": "大百科"
+          },
+          {
+            "name": "天略"
+          },
+          {
+            "name": "安徽时代"
+          },
+          {
+            "name": "尚童"
+          },
+          {
+            "name": "新蕾"
+          },
+          {
+            "name": "曲江培豪"
+          },
+          {
+            "name": "浙江少儿"
+          },
+          {
+            "name": "漓江出版社"
+          },
+          {
+            "name": "童心布马"
+          },
+          {
+            "name": "青豆"
+          }
+        ]
+      },
+      {
+        "parentName": "分类",
+        "parentId": "attributeDatas:分类",
+        "sonList": [
+          {
+            "name": "全部"
+          },
+          {
+            "name": "绘本图画书"
+          },
+          {
+            "name": "赠品"
+          },
+          {
+            "name": "儿童文学"
+          },
+          {
+            "name": "网络课程"
+          },
+          {
+            "name": "面部清洁"
+          },
+          {
+            "name": "中小学教辅"
+          },
+          {
+            "name": "睡袋/抱被"
+          },
+          {
+            "name": "运动护具"
+          },
+          {
+            "name": "益智玩具书"
+          },
+          {
+            "name": "科普百科"
+          },
+          {
+            "name": "家居床品"
+          },
+          {
+            "name": "生活"
+          },
+          {
+            "name": "围兜/防溅衣"
+          },
+          {
+            "name": "日常护理"
+          },
+          {
+            "name": "认知书"
+          }
+        ]
+      },
+      {
+        "parentName": "年龄",
+        "parentId": "attributeDatas:年龄",
+        "sonList": [
+          {
+            "name": "全部"
+          },
+          {
+            "name": "0-2岁"
+          },
+          {
+            "name": "3-6岁"
+          },
+          {
+            "name": "7-10岁"
+          },
+          {
+            "name": "11-14岁"
+          },
+          {
+            "name": "其他/成人"
+          }
+        ]
+      },
+      {
+        "parentName": "语言",
+        "parentId": "attributeDatas:语言",
+        "sonList": [
+          {
+            "name": "全部"
+          },
+          {
+            "name": "中文版"
+          }
+        ]
+      },
+      {
+        "parentName": "是否套装",
+        "parentId": "attributeDatas:是否套装",
+        "sonList": [
+          {
+            "name": "全部"
+          },
+          {
+            "name": "否"
+          },
+          {
+            "name": "是"
+          }
+        ]
+      },
+      {
+        "parentName": "包装",
+        "parentId": "attributeDatas:包装",
+        "sonList": [
+          {
+            "name": "全部"
+          },
+          {
+            "name": "精装"
+          },
+          {
+            "name": "平装"
+          },
+          {
+            "name": "盒装"
+          }
+        ]
+      },
+      {
+        "parentName": "类型",
+        "parentId": "attributeDatas:类型",
+        "sonList": [
+          {
+            "name": "全部"
+          },
+          {
+            "name": "欧美图画书"
+          },
+          {
+            "name": "数学故事"
+          },
+          {
+            "name": "套装图画书"
+          },
+          {
+            "name": "亚洲图画书"
+          },
+          {
+            "name": "心灵感悟"
+          },
+          {
+            "name": "生活常识"
+          },
+          {
+            "name": "童话故事"
+          }
+        ]
+      },
+      {
+        "parentName": "主题",
+        "parentId": "attributeDatas:主题",
+        "sonList": [
+          {
+            "name": "全部"
+          },
+          {
+            "name": "爱与分享"
+          },
+          {
+            "name": "创意想象"
+          },
+          {
+            "name": "品格培养"
+          },
+          {
+            "name": "好习惯养成"
+          },
+          {
+            "name": "情绪管理"
+          },
+          {
+            "name": "生命教育"
+          },
+          {
+            "name": "睡前故事"
+          },
+          {
+            "name": "绘本阅读指导"
+          }
+        ]
+      },
+      {
+        "parentName": "奖项",
+        "parentId": "attributeDatas:奖项",
+        "sonList": [
+          {
+            "name": "全部"
+          },
+          {
+            "name": "其他"
+          },
+          {
+            "name": "中国好书"
+          }
+        ]
+      },
+      {
+        "parentName": "科目",
+        "parentId": "attributeDatas:科目",
+        "sonList": [
+          {
+            "name": "全部"
+          },
+          {
+            "name": "数学"
+          }
+        ]
+      },
+      {
+        "parentName": "系列",
+        "parentId": "attributeDatas:系列",
+        "sonList": [
+          {
+            "name": "全部"
+          },
+          {
+            "name": "暖房子"
+          },
+          {
+            "name": "名家作品"
+          }
+        ]
+      },
+      {
+        "parentName": "国家和地区",
+        "parentId": "attributeDatas:国家和地区",
+        "sonList": [
+          {
+            "name": "全部"
+          },
+          {
+            "name": "中国"
+          }
+        ]
+      },
+      {
+        "parentName": "年级",
+        "parentId": "attributeDatas:年级",
+        "sonList": [
+          {
+            "name": "全部"
+          },
+          {
+            "name": "小学一年级"
+          },
+          {
+            "name": "小学三年级"
+          },
+          {
+            "name": "小学二年级"
+          },
+          {
+            "name": "小学五年级"
+          },
+          {
+            "name": "小学六年级"
+          },
+          {
+            "name": "小学四年级"
+          }
+        ]
+      },
+      {
+        "parentName": "牛奶类型",
+        "parentId": "attributeDatas:牛奶类型",
+        "sonList": [
+          {
+            "name": "全部"
+          },
+          {
+            "name": "酸奶"
+          }
+        ]
+      }
+    ],
+    "shareInfo": {
+      "title": "我在大V店搜索了“我”，快来看看吧！",
+      "desc": "来大V店可以找到你想要的好东西～",
+      "imgUrl": "http://9i.dvmama.com/activity/2017/03/27/640_640_3e38f947b4715789a29a2e32f046224f.png",
+      "link": "chen.vyohui.cn/new-search.html?keywords=%E6%88%91&sort=1&sortType=desc"
+    },
+    "correctionWords": "巴乔",
+    "noResult": {
+      "keywords": [
+        {
+          "name": "我去去去去",
+          "command": {
+            "content": "点击时的动作"
+          }
+      },
+        {
+          "name": "赶赶尴尬刚",
+          "command": {
+            "content": "点击时的动作"
+          }
+        }
+      ],
+      "feedList": [
+          {
+            "position": "0",
+            "marginTop": "0",
+            "body": {
+              "tplId": "bd_index_guess",
+              "bgColor": "0x33333300",
+              "dataList": [{
+                "position": "0",
+                "imageUrl": "图片下载地址",
+                "title": "商品标题",
+                "nowPrice": "价格",
+                "actInfo": "活动信息",
+                "incomeInfo": "佣金信息",
+                "statusInfo": "状态信息",
+                "command": {
+                  "content": "点击时的动作",
+                  "log": "统计动作",
+
+                }
+              }]
+            }
+          }
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+<!--loading动画-->
+<div class="page-loading">
+  <div class="mask">
+    <div class="center">
+      <div class="point"></div>
+      <div class="point"></div>
+      <div class="point"></div>
+      <div class="point"></div>
+      <div class="point"></div>
+      <div class="point"></div>
+      <div class="point"></div>
+      <div class="point"></div>
+    </div>
+    <!--<img class="gif" src="[[static]]/common/img/loading.gif[[v]]">-->
+  </div>
+  <script>
+    // 使page-loading的圆点变圆（因宽高有小数时有棱角）
+    (function () {
+      /**
+       * 插入css规则
+       * @param rule {String} css文本
+       */
+      function insertStyle(rule) {
+        var style = document.createElement('style');
+        style.appendChild(document.createTextNode(rule));
+        document.head.appendChild(style);
+      }
+
+      // 除去小数
+      var selector = '.page-loading .mask .center .point';
+      var point = document.querySelector(selector);
+      if (point) {
+        var computedStyle = window.getComputedStyle(point);
+        if (computedStyle && computedStyle.width) {
+          var width = parseInt(computedStyle.width);
+          insertStyle(selector + '{width: ' + width + 'px !important; height: ' + width + 'px !important;}');
+        }
+      }
+    })()
+  </script>
+</div>
+<!--<script src="[[vendor]]/babel-polyfill/6.26.0/polyfill.min.js"></script>-->
+<script src="[[vendor]]/vue/2.4.2/vue.min.js?v=20171223" integrity="sha256-Gs0UYwrz/B58FsQggzU+vvCSyG/pewemP4Lssjzv8Ho=" crossorigin="anonymous"></script>
+<script src="[[vendor]]/vue-lazyload/1.0.3/vue-lazyload.js?v=20171223" integrity="sha256-fMNK/+4LyoLY5kldi0tEXinECS/O0UAoKBoCMrsqzQ0=" crossorigin="anonymous"></script>
+<script src="[[vendor]]/jquery/3.2.0/jquery.min.js?v=20171223" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
+<script src="[[vendor]]/vconsole/3.0.0/vconsole.min.js" integrity="sha256-fKZuSDjJDMGPVNpUcSgczN3zf+07Bjw6xHRVy2o6oP8=" crossorigin="anonymous"></script>
+<script src='https://src.davdian.com/src/hackCheck.js?v=5.1'></script>

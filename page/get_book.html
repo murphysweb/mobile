@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no" />
+  <title>免费领书</title>
+  <link href="http://5e.dvmama.com/wap/15686/stylesheet/base.css" rel="stylesheet">
+  <link href="http://5e.dvmama.com/wap/15686/stylesheet/model.css" rel="stylesheet">
+  <link href="../stylesheet/get_book.css" rel="stylesheet">
+  <script src="https://3n.dvmama.com/growingIO/growingIO.davdian.v3.js" integrity="sha256-KwQr7ZZi14Rg7LSBLT2qbNXEtafKRaF/ERePdE4ciUE=" crossorigin=anonymous></script>
+  <script type="text/javascript">
+
+    var appData = {
+      showHead: 1, // 是否展示头部
+      showFoot: 0, // 是否展示底部
+      // 皇伟需要把 backOnHead 改成 0
+      backOnHead: 0, // 头部返回按钮
+      homeOnHead: 0, // 头部首页按钮
+      shareOnHead: 0
+    };
+
+    //领书地址
+    var _get_book_addre = 'http://www.baidu.com/';
+  </script>
+</head>
+<body>
+  <div class="js-to-hide-cart" growing-ignore='true'>
+    <div class="top0">
+      <div class="top_container">
+        <!-- 这里注释了 不展示返回按钮 -->
+        <!-- <div class="top_left">
+          <a class="top_back" href="javascript:history.back();" data-dav-tj="cart_confirm|back|back|1|back@cart_confirm">
+            <span class="home_arrow"></span>
+          </a>
+        </div> -->
+        <div class="title_container">
+          免费领书 </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="main-content">
+    <!-- 用户信息-start -->
+    <img src="http://9i.dvmama.com/free/2018/03/14/90_90_4dd53b6f31900f739d5304625cada24f.png" alt="head_icon" class="head_icon">
+    <p class="nickname">WZ免费赠送您一本书</p>
+    <!-- 用户信息-end -->
+
+    <!-- 书籍信息-start -->
+    <div class="bg">
+      <div class="border book_items">
+        <div class="book_item hide" data-index="1" data-id="11111" growing-ignore='true'>
+          <img src="http://9i.dvmama.com/images/201508/goods_img/201_G_1439877094162.jpg" alt="book_img" class="book_img">
+           <div class="no_sale">已抢光</div>
+          <p class="book-info">简介：我是第一本书我是第一本书我是第一本书我是第一本书我是第一本书</p>
+        </div>
+        <div class="book_item now_choose" data-index="2" data-id="22222" growing-ignore='true'>
+          <img src="http://9i.dvmama.com/supplier/2017/07/07/1000_1000_88dc696877bdfca65755de10a5e91221.jpg" alt="book_img" class="book_img">
+<!--           <div class="no_sale">已抢光</div> -->
+          <p class="book-info">简介：我是第二本书我是第二本书我是第二本书我是第二本书我是第二本书我是第二本书我是第二本书我是第二本书</p>
+        </div>
+        <div class="book_item hide" data-index="3" data-id="33333" growing-ignore='true'>
+          <img src="http://9i.dvmama.com/supplier/2017/03/11/1000_1000_5f27f5f2aee93aacbf50c8eadbcef7e4.jpg" alt="book_img" class="book_img">
+          <!-- <div class="no_sale">已抢光</div> -->
+          <p class="book-info">简介：我是第三本书我是第三本书我是第三本书我是第三本书我是第三本书我是第三本书</p>
+        </div>
+
+        <p class="change" id="change_book">换一本></p>
+      </div>
+    </div>
+    <!-- 书籍信息-end -->
+
+    <!-- 免费领书 -->
+    <a class="invite-btn to_send_book" href="javascript:;">免费领书</a>
+    <!-- <a class="invite-btn invite-btn-disabled" href="javascript:;">免费领书</a> -->
+
+    <!-- 领书说明 -->
+    <div class="get_desc" growing-ignore='true'>
+      <p>*仅限大V店新用户免费领取</p>
+      <p>领取后可以进入亲子交流群</p>
+    </div>
+  </div>
+
+
+  <script src="http://3n.dvmama.com/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    !window.jQuery && document.write(
+      '<script type="text/javascript" src="http://5e.dvmama.com/wap/15686/cdn/jquery/1.9.1/jquery-1.9.1.min.js"><\/script>'
+    );
+  </script>
+  <script type="text/javascript" src="http://5e.dvmama.com/wap/15686/javascript/model.js"></script>
+  <script type="text/javascript" src="http://5e.dvmama.com/wap/15686/javascript/base.js"></script>
+  <!-- 皇伟需要在basejs  下边加上这段js -->
+  <script>
+  window.onload = function(){
+      $('.invite-btn-disabled').click(function(){
+        bravetime.newConfirm('这里可以自定义提示信息', {
+          hideCancel: true,
+          okText: '我知道了',
+          okLink: function(){
+            alert('设置回调函数')
+          }
+        })
+      })
+
+      $('#change_book').click(function(){
+        //总共有几本书可选
+        var all_book_num = $('.book_items').find('.book_item').length;
+        //当前选中的是哪本书
+        var now_book = $('.book_items').find('.now_choose');
+        //获取当前选中的是第几本书
+        var now_book_num = now_book.data('index');
+
+        //该显示哪本书
+        $('.book_item').addClass('hide').removeClass('now_choose');
+        if (now_book_num + 1 > all_book_num) {
+          $('.book_items').find('.book_item').first().addClass('now_choose').removeClass('hide');
+        } else {
+          now_book.next().addClass('now_choose').removeClass('hide');
+        }
+      })
+
+      $('.to_send_book').click(function(){
+        //当前选中书的ID
+        var now_book_id = $('.now_choose').data('id');
+        //判断是否已被抢光
+        if ($('.now_choose').find('.no_sale').length) {
+          bravetime.newConfirm('抱歉，当前书已被抢光啦，请换一本吧~', {
+            hideCancel: true,
+            okText: '我知道了'
+          })
+        } else {
+          location.href = _get_book_addre + '?book_id=' + now_book_id;
+        }
+      })
+    }
+    if(Units.isApp() && Units.getAppVersion() > 512){
+      document.getElementsByTagName("body")[0].className = '';
+    }
+  </script>
+</body>
+
+</html>
